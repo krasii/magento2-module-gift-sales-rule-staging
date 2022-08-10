@@ -26,7 +26,7 @@
             <column name="rule_id"/>
         </constraint>
         <constraint xsi:type="foreign" referenceId="FL_ALLOWED_RULE_ID" table="smile_gift_salesrule"
-                    column="rule_id" referenceTable="salesrule" referenceColumn="row_id"
+                    column="rule_id" referenceTable="salesrule" referenceColumn="rule_id"
                     onDelete="CASCADE"/>
     </table>
 </schema>
